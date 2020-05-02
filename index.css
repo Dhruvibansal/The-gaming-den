@@ -27,3 +27,36 @@ h2 {
     font-size: 30px;
     text-align: center;
 }
+table {
+    margin-top: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 60%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+    padding: 8px;
+    background-color: #6BBE30;
+}
+
+td {
+    font-size: 15px;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(odd) {
+    background-color: #6BBE30;
+}
+
+tr:nth-child(even) {
+    background-color: #CAEBF2;
+}
+
+.container {
+    text-align: center;
+}
