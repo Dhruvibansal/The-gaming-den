@@ -27,6 +27,7 @@ h2 {
     font-size: 30px;
     text-align: center;
 }
+
 table {
     margin-top: 80px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -59,4 +60,15 @@ tr:nth-child(even) {
 
 .container {
     text-align: center;
+    padding-top: 40px;
+    font-weight: bolder;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    background-color: #6BBE30;
+    color: white;
 }
