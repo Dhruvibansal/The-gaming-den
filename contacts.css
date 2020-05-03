@@ -1,6 +1,43 @@
-.container {
+.sidenav {
     text-align: center;
+    position: fixed;
+    background-color: #148DFE;
+    height: 100%;
+    width: 150px;
+    overflow: hidden;
     padding-top: 30px;
-    font-weight: bolder;
-    text-align: center;
+}
+
+.sidenav a {
+    padding: 16px 8px 8px 18px;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+body {
+    background-image: url(contacts.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0px;
+}
+
+.sidenav a:hover {
+    color: #91FFFF;
+}
+
+H1 {
+    font-size: 45px;
+    padding-top: 100px;
+    padding-left: 43%;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    padding: 50px;
+    padding-left: 40%;
+    font-size: 30px;
+    color: white;
 }
